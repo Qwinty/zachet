@@ -109,7 +109,7 @@ void ex_1() {
     phone1.sendMessage(3, "555-1234", "555-5678", "555-9012");
 }
 
-// Linear search
+// Линейный поиск
 int linearSearch(long arr[], int n, int x) {
     for (int i = 0; i < n; i++)
         if (arr[i] == x)
@@ -117,7 +117,7 @@ int linearSearch(long arr[], int n, int x) {
     return -1;
 }
 
-// Binary search
+// Бинарный поиск
 int binarySearch(long arr[], int l, int r, int x) {
     if (r >= l) {
         int mid = l + (r - l) / 2;
